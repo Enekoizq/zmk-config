@@ -8,6 +8,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&bt {
+    compatible = "zmk,behavior-bluetooth";
+    bindings = <&bt_clear_bonds>;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
