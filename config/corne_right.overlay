@@ -1,0 +1,6 @@
+/ {
+    bt {
+        keyboard-id = <2>;
+        split-id = <42>;
+    };
+};
