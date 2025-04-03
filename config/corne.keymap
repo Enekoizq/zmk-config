@@ -9,12 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    chosen {
-        zmk,keyboard = &left;
-    };
-};
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
