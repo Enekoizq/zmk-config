@@ -1,4 +1,8 @@
 / {
+    left: board {
+        compatible = "zmk,shield";
+    };
+
     bt {
         keyboard-id = <1>;
         split-id = <42>;
